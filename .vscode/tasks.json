@@ -48,6 +48,8 @@
             "type": "shell",
             "command": "gcc",
             "args": [
+                "-I",
+                "/workspaces/atcoder_docker_sample/ac-library/",
                 "${file}",
                 "-o",
                 "${workspaceFolder}/tmp/a.out",
