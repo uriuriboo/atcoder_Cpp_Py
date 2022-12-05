@@ -1,16 +1,17 @@
 {
     "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "gcc-x64"
-        }
-    ],
-    "version": 4
+    {
+      "name": "Linux",
+      "includePath": [
+          "/workspaces/atcoder_docker_sample/ac-library/",
+          "${workspaceFolder}/**"
+        ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
 }
