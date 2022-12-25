@@ -133,22 +133,22 @@
     "description": "map<int,int>略の省略"
   },
   "出力改行":{
-    "prefix": "cen",
+    "prefix": "oen",
     "body": "cout << $1 << endl;\n",
     "description": "出力と改行を行う"
   },
   "ans 出力": {
-    "prefix": "cans",
+    "prefix": "oans",
     "body": "cout << ans << endl;",
     "description": "ansの出力"
   },
   "Yes 出力": {
-    "prefix": "cYe",
+    "prefix": "oy",
     "body": "cout << \"Yes\" << endl;\n",
     "description": "Yesの出力"
   },
   "No 出力": {
-    "prefix": "cNo",
+    "prefix": "on",
     "body": "cout << \"No\" << endl;\n",
     "description": "Noの出力"
   },
