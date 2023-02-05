@@ -33,13 +33,17 @@
             ],
             */
         },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "stopOnEntry": true,
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
+        // {
+        //     "name": "Python: Current File",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "stopOnEntry": true,
+        //     "program": "${file}",
+        //     "args": [ "<",
+        //               "${workspaceFolder}/input.txt"
+        //             ],
+        //     "console": "integratedTerminal"
+
+        // },
     ]
 }
