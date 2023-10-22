@@ -10,28 +10,26 @@
             "request": "launch",
             "program": "${workspaceFolder}/tmp/a.out",
             "args": [
-              "<",
-              "${workspaceFolder}/input.txt"
+                "<",
+                "${workspaceFolder}/input.txt"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "externalConsole": false,
             "MIMode": "gdb",
             //"preLaunchTask":"cpp build",
-            "miDebuggerPath":"/usr/bin/gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
             "setupCommands": [
-				{
-					"description": "Enable pretty-printing for gdb",
-					"text": "-enable-pretty-printing",
-					"ignoreFailures": true
-				}
-			],
-            /*
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
             "console": "integratedTerminal",
             "stdio": [
                 "${workspaceFolder}/input.txt"
             ],
-            */
         },
         // {
         //     "name": "Python: Current File",
@@ -43,7 +41,6 @@
         //               "${workspaceFolder}/input.txt"
         //             ],
         //     "console": "integratedTerminal"
-
         // },
     ]
 }
